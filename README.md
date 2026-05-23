@@ -25,9 +25,9 @@ Feather Find is a full-stack MERN application (React frontend, Node.js/Express b
    - *(Optional)* Change the `JWT_SECRET` for security.
 4. Start the backend server:
    ```bash
-   npm run dev
+   npm start
    ```
-   *The backend will automatically create the required SQLite database (`feather_find.db`) on the first run. The server runs on `http://localhost:3000`.*
+   *There is no explicit `start` script in `package.json` — this works because npm defaults to `node server.js` when no start script is defined. The backend will automatically create the required SQLite database (`feather_find.db`) on the first run. The server runs on `http://localhost:3000`.*
 
 ### 2. Frontend Setup
 
